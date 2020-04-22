@@ -1,24 +1,45 @@
-.App {
-  text-align: center;
+.float {
+  float: left;
+  height: 100%;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.divider {
+  margin: 30px 100px;
+  border-bottom: 1px solid;
+  border-color: rgba(128, 128, 128, 0.13);
+  padding: 30px 0;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+button {
+  margin-left: 10px;
+}
+.view {
+  padding: 6px 10px;
+  background-color: #9c27b0;
+  border-radius: 3px;
   color: white;
 }
-
-.App-intro {
-  font-size: large;
+.save {
+  padding: 6px 10px;
+  background-color: #27b06c;
+  border-radius: 3px;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.delete {
+  padding: 6px 10px;
+  background-color: #b06927;
+  border-radius: 3px;
+  color: white;
+}
+.input {
+  margin-right: 20px;
+}
+.saved {
+  margin-left: 10px;
+  color: grey;
+}
+.wrapper-book {
+  display: table;
+  height: 100% !important;
+}
+.divider {
+  height: 100%;
 }
