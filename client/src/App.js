@@ -10,7 +10,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
 import Header from "./components/Header/Header.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+// import Footer from "./components/Footer/Footer.jsx";
 import GridContainer from "./components/Grid/GridContainer.jsx";
 import GridItem from "./components/Grid/GridItem.jsx";
 import HeaderLinks from "./components/Header/HeaderLinks.jsx";
@@ -61,7 +61,7 @@ class App extends React.Component {
               </Switch>
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );
