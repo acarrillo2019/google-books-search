@@ -20,7 +20,7 @@ function Footer({ ...props }) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -32,8 +32,8 @@ function Footer({ ...props }) {
               </a>
             </ListItem>
           </List>
-        </div>
-        <div className={classes.right}>
+        </div> */}
+        <div className={classes.center}>
           <h1>Google Books Search</h1>
         </div>
       </div>
